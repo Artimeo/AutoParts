@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DB;
+using AutoParts;
 using System.Windows.Forms;
 
-namespace DB.Tests
+namespace AutoParts.Tests
 {
     [TestClass]
     public class UnitTest_case2

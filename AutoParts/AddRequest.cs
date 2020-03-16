@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DB
+namespace AutoParts
 {
     public partial class AddRequest : Form
     {

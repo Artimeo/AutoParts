@@ -1,4 +1,4 @@
-﻿namespace DB
+﻿namespace AutoParts
 {
     partial class AddDealsForm
     {
@@ -43,15 +43,15 @@
             this.buttonAddProvider = new System.Windows.Forms.Button();
             this.buttonRecordRow = new System.Windows.Forms.Button();
             this.buttonCloseForm = new System.Windows.Forms.Button();
-            this.autoPartsDataSet = new DB.AutoPartsDataSet();
+            this.autoPartsDataSet = new AutoParts.AutoPartsDataSet();
             this.partsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.partsTableAdapter = new DB.AutoPartsDataSetTableAdapters.partsTableAdapter();
+            this.partsTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.partsTableAdapter();
             this.bridgeproviderspartsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.bridge_providers_partsTableAdapter = new DB.AutoPartsDataSetTableAdapters.bridge_providers_partsTableAdapter();
+            this.bridge_providers_partsTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.bridge_providers_partsTableAdapter();
             this.dealsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dealsTableAdapter = new DB.AutoPartsDataSetTableAdapters.dealsTableAdapter();
+            this.dealsTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.dealsTableAdapter();
             this.providersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.providersTableAdapter = new DB.AutoPartsDataSetTableAdapters.providersTableAdapter();
+            this.providersTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.providersTableAdapter();
             this.buttonAddPart = new System.Windows.Forms.Button();
             this.textBoxTitle = new System.Windows.Forms.TextBox();
             this.labelManufacturer = new System.Windows.Forms.Label();

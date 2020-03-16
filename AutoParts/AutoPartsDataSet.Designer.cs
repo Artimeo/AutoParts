@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace DB {
+namespace AutoParts {
     
     
     /// <summary>
@@ -3646,7 +3646,7 @@ namespace DB {
         }
     }
 }
-namespace DB.AutoPartsDataSetTableAdapters {
+namespace AutoParts.AutoPartsDataSetTableAdapters {
     
     
     /// <summary>
@@ -3808,7 +3808,7 @@ namespace DB.AutoPartsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::DB.Properties.Settings.Default.AutoPartsConnectionString;
+            this._connection.ConnectionString = global::AutoParts.Properties.Settings.Default.AutoPartsConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4129,7 +4129,7 @@ namespace DB.AutoPartsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::DB.Properties.Settings.Default.AutoPartsConnectionString;
+            this._connection.ConnectionString = global::AutoParts.Properties.Settings.Default.AutoPartsConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4362,7 +4362,7 @@ SELECT title, article, manufacturer, price FROM parts WHERE (article = @article)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::DB.Properties.Settings.Default.AutoPartsConnectionString;
+            this._connection.ConnectionString = global::AutoParts.Properties.Settings.Default.AutoPartsConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4723,7 +4723,7 @@ SELECT price_id, parts_article, price_date, price FROM priceHistory WHERE (price
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::DB.Properties.Settings.Default.AutoPartsConnectionString;
+            this._connection.ConnectionString = global::AutoParts.Properties.Settings.Default.AutoPartsConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5038,7 +5038,7 @@ SELECT title, provider_address, phone FROM providers WHERE (title = @title)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::DB.Properties.Settings.Default.AutoPartsConnectionString;
+            this._connection.ConnectionString = global::AutoParts.Properties.Settings.Default.AutoPartsConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5389,7 +5389,7 @@ SELECT title, provider_address, phone FROM providers WHERE (title = @title)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::DB.Properties.Settings.Default.AutoPartsConnectionString;
+            this._connection.ConnectionString = global::AutoParts.Properties.Settings.Default.AutoPartsConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5561,7 +5561,7 @@ SELECT title, provider_address, phone FROM providers WHERE (title = @title)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::DB.Properties.Settings.Default.AutoPartsConnectionString;
+            this._connection.ConnectionString = global::AutoParts.Properties.Settings.Default.AutoPartsConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

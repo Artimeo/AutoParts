@@ -1,4 +1,4 @@
-﻿namespace DB
+﻿namespace AutoParts
 {
     partial class AddPartsForm
     {

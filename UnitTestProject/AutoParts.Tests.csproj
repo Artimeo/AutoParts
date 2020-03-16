@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DB\DB.csproj">
+    <ProjectReference Include="..\AutoParts\AutoParts.csproj">
       <Project>{e8420a7f-e83b-4183-9d94-e97a7d38c41f}</Project>
-      <Name>DB</Name>
+      <Name>AutoParts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

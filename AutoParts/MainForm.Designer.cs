@@ -1,4 +1,4 @@
-﻿namespace DB
+﻿namespace AutoParts
 {
     partial class MainForm
     {
@@ -49,7 +49,7 @@
             this.датаЗакупкиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.поставщикDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.storehouseBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.autoPartsDataSet = new DB.AutoPartsDataSet();
+            this.autoPartsDataSet = new AutoParts.AutoPartsDataSet();
             this.buttonDeleteStorehouse = new System.Windows.Forms.Button();
             this.buttonAddStorehouse = new System.Windows.Forms.Button();
             this.buttonPricehistoryStorehouse = new System.Windows.Forms.Button();
@@ -120,14 +120,14 @@
             this.buttonCleanPriceview = new System.Windows.Forms.Button();
             this.buttonRefreshPriceview = new System.Windows.Forms.Button();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.storehouseTableAdapter = new DB.AutoPartsDataSetTableAdapters.storehouseTableAdapter();
-            this.providersTableAdapter = new DB.AutoPartsDataSetTableAdapters.providersTableAdapter();
-            this.partsTableAdapter = new DB.AutoPartsDataSetTableAdapters.partsTableAdapter();
+            this.storehouseTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.storehouseTableAdapter();
+            this.providersTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.providersTableAdapter();
+            this.partsTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.partsTableAdapter();
             this.dealsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dealsTableAdapter = new DB.AutoPartsDataSetTableAdapters.dealsTableAdapter();
+            this.dealsTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.dealsTableAdapter();
             this.bridgeproviderspartsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.bridge_providers_partsTableAdapter = new DB.AutoPartsDataSetTableAdapters.bridge_providers_partsTableAdapter();
-            this.priceviewTableAdapter = new DB.AutoPartsDataSetTableAdapters.priceviewTableAdapter();
+            this.bridge_providers_partsTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.bridge_providers_partsTableAdapter();
+            this.priceviewTableAdapter = new AutoParts.AutoPartsDataSetTableAdapters.priceviewTableAdapter();
             this.tabs.SuspendLayout();
             this.storehouseTab.SuspendLayout();
             this.flowLayoutPanelRowCountStorehouse.SuspendLayout();
