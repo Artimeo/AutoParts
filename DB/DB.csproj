@@ -77,6 +77,9 @@
     <Compile Include="AddRequest.Designer.cs">
       <DependentUpon>AddRequest.cs</DependentUpon>
     </Compile>
+    <Compile Include="AutoPartsDataSet.cs">
+      <DependentUpon>AutoPartsDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="AutoPartsDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
