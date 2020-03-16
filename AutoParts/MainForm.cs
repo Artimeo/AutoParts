@@ -13,17 +13,16 @@ namespace AutoParts
 {
     public partial class MainForm : Form
     {
-        public const string connectionString = "Data Source=ORANGE\\MSSQLEXPRESS2017;Initial Catalog=AutoParts;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False";
         bool textBoxSearchActiveStorehouse = false;
         bool textBoxSearchActiveParts = false;
         bool textBoxSearchActiveProviders = false;
         bool textBoxSearchActivePriceview = false;
-        //записки
-        //https://www.flaticon.com/free-icon/plus_128575 иконка "назад"
-        //42880b - зеленые иконки
-        //1568A3 синие 
-        //db342d красные
-        //E8C538 желтые
+        
+        public const string connectionString = "Data Source=ORANGE\\MSSQLEXPRESS2017;Initial Catalog=AutoParts;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False";
+        // 42880b зеленые иконки
+        // 1568A3 синие 
+        // db342d красные
+        // E8C538 желтые
 
         public MainForm()
         {
